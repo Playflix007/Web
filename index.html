@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Streaming Channels</title>
+  <link href="https://vjs.zencdn.net/7.20.3/video-js.css" rel="stylesheet">
+  <script src="https://vjs.zencdn.net/7.20.3/video.min.js"></script>
+</head>
+<body>
+  <h1>My Streaming Channels</h1>
+  <video id="player" class="video-js vjs-default-skin" controls preload="auto" width="600" height="300">
+    <source src="playlist.m3u" type="application/x-mpegURL">
+  </video>
+  <script>
+    var player = videojs('player');
+  </script>
+</body>
+</html>
